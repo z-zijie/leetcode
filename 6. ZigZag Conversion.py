@@ -1,5 +1,6 @@
 class Solution:
-    def convert(self, s: str, num_rows: int) -> str:
+    @staticmethod
+    def convert(s: str, num_rows: int) -> str:
         string_length = len(s)
         group_length = num_rows + num_rows - 2
         if group_length == 0:
@@ -20,6 +21,6 @@ class Solution:
 if __name__ == "__main__":
     print("6. ZigZag Conversion")
     main = Solution()
-    s = "A"
+    example_string = "A"
     numRows = 1
-    print(main.convert(s, numRows))
+    print(main.convert(example_string, numRows))
