@@ -21,5 +21,5 @@ class Solution:
 if __name__ == "__main__":
     print("5. Longest Palindromic Substring")
     main = Solution()
-    s = "abcdcbsas"
-    print(main.longestPalindrome(s))
+    example_string = "abcdcbsas"
+    print(main.longestPalindrome(example_string))
